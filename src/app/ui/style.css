@@ -1,0 +1,14 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+@import "tailwindcss/utilities";
+
+.home-layout {
+    display: grid;
+    grid-template-rows: 1fr 105px;
+  }
+
+.z-1000 {
+  z-index: 1000;
+}
