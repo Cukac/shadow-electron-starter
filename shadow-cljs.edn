@@ -1,7 +1,5 @@
 ;; shadow-cljs configuration
-{:source-paths ["src"]
-
- :dependencies [[reagent "0.10.0"]]
+{:deps true
 
  :dev-http {8080 "resources/public/"}
 
@@ -12,4 +10,4 @@
           :renderer {:target :browser
                      :output-dir "resources/public/js"
                      :asset-path "js"
-                     :modules {:renderer {:init-fn app.renderer.core/start!}}}}}
+                     :modules {:renderer {:init-fn app.renderer.core/reload}}}}}

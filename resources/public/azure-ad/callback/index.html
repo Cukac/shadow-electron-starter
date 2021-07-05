@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    Login successful. Redirecting...
+
+  <script src="/js/main.js" type="text/javascript"></script>
+  <script>
+      window.onload = function () {
+        window.location.replace( "/" + window.location.hash.replace('#','?') + "#!home");
+        //window.location.href = window.location.protocol + window.location.hostname + (window.location.search || '') + (window.location.hash || '');
+      };
+  
+  </script>
+  </body>
+</html>
