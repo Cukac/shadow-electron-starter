@@ -3,12 +3,13 @@ ClojureScript + Shadow-cljs + Electron + Reagent
 
 ## How to Run
 ```
-npm install electron-prebuilt -g
-npm install shadow-cljs -g
-npm install
+yarn global add electron-prebuilt
+yarn global add shadow-cljs
+yarn
 
-npm run dev
-electron .
+yarn run dev
+--> new teerminal ->
+yarn electron .
 ```
 
 ## Release

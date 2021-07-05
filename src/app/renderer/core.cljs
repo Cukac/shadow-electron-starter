@@ -14,7 +14,7 @@
     [:img.reagent {:src "img/reagent-logo.png"}]]
    [:button
     {:on-click #(swap! state inc)}
-    (str "Clicked " @state " times")]])
+    (str "Clicked this manny times: " @state)]])
 
 (defn ^:dev/after-load start! []
   (rd/render
